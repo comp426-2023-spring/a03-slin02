@@ -21,6 +21,7 @@ const rules = `Rules for Rock Paper Scissors:
   - Scissors CUTS Paper
   - Paper COVERS Rock
   - Rock CRUSHES Scissors`; 
+
 if (args.h || args.help) {
 	console.log(help_message);
 	process.exit(0);
